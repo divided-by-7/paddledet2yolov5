@@ -9,7 +9,8 @@
 
 import xml.etree.ElementTree as ET
 import os
-
+# ————————————————————————————————————————————————————————————————————————————————————————————
+# 路径设置
 label_list_path = "label_list.txt"  # label_list.txt路径
 xml_input = "annotations"  # xml文件路径
 save_dir = "label_txt"  # 保存的txt格式label路径
