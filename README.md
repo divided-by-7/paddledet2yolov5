@@ -8,6 +8,6 @@
 
 2、假如您已存在“images”和“annotations”文件夹，您可以执行<b>xml2txt_step2.py</b>程序，请确保在当前目录下存在“label_list.txt”，该文件为目标检测所包含的每个类名，以回车间隔；当您执行完程序会在当前目录下生成“label_txt”文件夹，存放yolov5支持的txt标签
 
-3、划分paddle detection支持格式的训练集、测试集、验证集，请执行<b>划分数据集_step3.py</b>程序。
+3、划分paddle detection支持格式的训练集、测试集、验证集，请执行<b>划分数据集_step3.py</b>程序,将生成train.txt，label.txt，test.txt，分别包含三个集的路径。
 
-4、划分ultralytics.yolov5支持的训练集、测试集、验证集，请先执行<b>划分数据集_step3.py</b>程序，再执行“划分yolo格式数据集_step4.py”。
+4、划分ultralytics.yolov5支持的训练集、测试集、验证集，请先执行<b>划分数据集_step3.py</b>程序，再执行“划分yolo格式数据集_step4.py”，保存至Dataset文件夹。
