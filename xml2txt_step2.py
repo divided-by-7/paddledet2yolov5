@@ -10,14 +10,16 @@
 import xml.etree.ElementTree as ET
 import os
 
+label_list_path = "label_list.txt"  # label_list.txt路径
+xml_input = "annotations"  # xml文件路径
+save_dir = "label_txt"  # 保存的txt格式label路径
+# ————————————————————————————————————————————————————————————————————————————————————————————
 # 类别
-f = open("label_list.txt", encoding="utf-8")
+f = open(label_list_path, encoding="utf-8")
 CLASSES = [i.strip() for i in f.readlines()]
-save_dir = "label_txt"
+
 if not os.path.exists(save_dir):
     os.mkdir(save_dir)
-# xml文件路径
-xml_input = "annotations"
 
 
 def convert(size, box):
