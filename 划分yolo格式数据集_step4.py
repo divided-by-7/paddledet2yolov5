@@ -14,7 +14,7 @@ from tqdm import tqdm
 
 # 请确保已经运行过step1
 # argparse：
-file_name = "yolov5数据集"  # 数据将在此目录下存为yolov5格式副本
+file_name = "Dataset"  # 数据将在此目录下存为yolov5格式副本
 train_file_name = "train.txt"  # paddle detection的训练集样本名字的位置
 valid_file_name = "valid.txt"  # paddle detection的验证集样本名字的位置
 test_file_name = 'test.txt'  # paddle detection的测试集样本名字的位置
