@@ -1,0 +1,2 @@
+# xml2txt
+将paddledetection用的xml数据格式转化为yolov5用的txt格式
