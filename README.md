@@ -1,10 +1,10 @@
 # xml2txt
-本程序主要功能：
+## 本程序主要功能：
 
 （1）若只想划分Paddle Detection支持的训练集、测试集、验证集，请阅读使用方法1、3
 （2）若想将数据转化为ultralytics.yolov5支持的数据格式，请阅读使用方法1、2、3、4
 
-使用方法：
+## 使用方法：
 
 1、假如您已存在一个文件夹同时包含.xml文件和.jpg等图片，您可以执行<b>拆分images和annotations_step1.py</b>程序，程序默认会将名为“all_data”文件夹下的图片和xml文件拆分至“images”和“annotations”文件夹
 
